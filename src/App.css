@@ -1,0 +1,398 @@
+.App {
+  width: 1100px;
+  padding-right: 170px;
+  padding-left: 170px;
+  margin: auto;
+}
+.name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-transform: uppercase;
+}
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.white-bold {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+.white-bold-uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+.comics-bold-uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.price {
+  color: #00000099;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.white-bold-banner {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+.last {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.black-bold {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+.invisor {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 500px;
+  width: 467px;
+  height: 372px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+h5 {
+  padding: 0px;
+  margin: 0px;
+}
+.header-p:hover {
+  cursor: pointer;
+  color: #9f0013;
+}
+.App-header-left {
+  display: flex;
+}
+.App-header {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32.81px;
+  justify-content: space-between;
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.red-p {
+  margin-right: 3px;
+  color: #9f0013;
+}
+.App-header-right {
+  display: flex;
+}
+.button-cont {
+  padding-right: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+/* RANDOM CHARACTER  */
+.random-character-information {
+  margin-left: 30px;
+}
+.random-character {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  width: 550px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+}
+.get-random-character {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  width: 550px;
+  height: 250px;
+  background-color: black;
+}
+.random-character-cont {
+  margin-bottom: 44px;
+  display: flex;
+}
+
+.random-character-img {
+  width: 180px;
+  height: 180px;
+}
+.random-character-padding {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 40px;
+  padding-bottom: 35px;
+  padding-right: 35px;
+}
+
+.random-character-description {
+  display: flex;
+}
+
+.random-character-description h5 {
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+.get-random-character {
+  display: flex;
+}
+.white-bold {
+  padding-top: 35px;
+  color: white;
+}
+.white-bold2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28.13px;
+  padding-top: 33px;
+  color: white;
+  margin-bottom: 13px;
+}
+.get-random-character-text {
+  padding-left: 40px;
+}
+.hammer {
+  padding-top: 47px;
+}
+
+/* HERO CARDS */
+.heroes-cards:hover {
+  cursor: pointer;
+  transform: translate(0px, -10px);
+  transition: all 0.4s;
+  box-shadow: 0 0 5px #ff0000, 0 0 3px;
+}
+.hero-card-img {
+  width: 200px;
+  height: 200px;
+}
+.heroes-cards {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 38px;
+  width: 200px;
+  height: 318px;
+  background-color: #232222;
+}
+.white-bold-uppercase {
+  width: 170px;
+  padding-top: 15px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.selected-hero-cont {
+  width: 425px;
+  height: 350px;
+}
+.heroes-cards-wrapper {
+  margin-right: 25px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+}
+main {
+  display: flex;
+}
+.comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.banner {
+  margin-bottom: 45px;
+  display: flex;
+  width: 1100px;
+  height: 100px;
+  background-color: #232222;
+}
+.banner p {
+  padding-left: 83px;
+  width: 235px;
+  height: 64px;
+}
+.banner-img-l {
+  padding-left: 45px;
+}
+.banner-img-r {
+  margin-left: auto;
+  padding-right: 25px;
+}
+
+.selected-hero-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 425px;
+  height: 294px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.circle-box {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  align-items: center;
+  display: flex;
+}
+.circle {
+  background: #c4c4c4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.box {
+  margin-left: 9px;
+  background: #c4c4c4;
+  width: 326px;
+  height: 16px;
+}
+.three-box div {
+  width: 375px;
+  height: 35px;
+  background: #c4c4c4;
+}
+.empty-blocks {
+  margin: 0px 25px 25px 25px;
+  width: 375px;
+  height: 190px;
+}
+.mrg-o {
+  margin-bottom: 0px;
+}
+.mrgb {
+  margin-bottom: 15px;
+}
+.selected-hero-cont p {
+  margin-left: 54px;
+  margin-right: 53px;
+  margin-top: 25px;
+  width: 318px;
+  height: 24px;
+}
+.red {
+  color: white;
+  width: 101px;
+  height: 38px;
+  border-width: 0px;
+  background: #9f0013;
+}
+.red:hover {
+  cursor: pointer;
+  background-color: #5d050f;
+}
+.grey {
+  color: white;
+  width: 101px;
+  height: 38px;
+  border-width: 0px;
+  background: #5c5c5c;
+}
+.grey:hover {
+  cursor: pointer;
+  background-color: #1c1b1b;
+}
+.App .form {
+  width: 650px;
+  text-align: center;
+}
+.form button {
+  width: 170px;
+  height: 38px;
+}
+/* COMICS  */
+.form-2 {
+  width: 1100px;
+  align-items: center;
+  text-align: center;
+}
+.form-2 button {
+  width: 170px;
+  height: 38px;
+}
+.comics-cards p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 225px;
+}
+.comics-card-img {
+  width: 225px;
+  height: 346px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+}
+.comics-card-img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #ff0000, 0 0 3px;
+}
+.comics-cards:hover {
+  transform: translate(0px, -10px);
+  transition: all 0.4s;
+}
+.comics-description {
+  display: flex;
+}
+.comics-description-img {
+  width: 293px;
+  height: 450px;
+}
+.comics-description-text {
+  margin-left: 50px;
+}
+.comics-description p {
+  margin-bottom: 25px;
+}
+.comics-description h5 {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.red-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #9f0013;
+}
+/* HERO DESCRIPTION  */
+.hero-description-text {
+  margin-left: 50px;
+}
+.hero-description p {
+  margin-bottom: 25px;
+}
+.hero-description {
+  display: flex;
+}
+.hero-description-img {
+  width: 293px;
+  height: 293px;
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
