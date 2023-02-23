@@ -8,12 +8,10 @@ export function HeroesCards({}) {
   const [limit, setLimit] = useState(9);
   let navigate = useNavigate();
   const characters = useSelector((state) => state.allData.characters);
-
   const addMoreCharacters = (e) => {
     e.preventDefault();
     setLimit(limit + 6);
   };
-
   return (
     <>
       <main>
@@ -31,8 +29,8 @@ export function HeroesCards({}) {
                         className="hero-card-img"
                         src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
                       ></img>
-                      <p className="white-bold-uppercase">{item.name}</p>
                     </div>
+                    <p className="white-bold-uppercase">{item.name}</p>
                   </div>
                 );
               })

@@ -26,19 +26,21 @@ export const ComicsDescription = () => {
       ) : (
         <>
           <Banner />
-          <div className="comics-description">
-            <div>
-              <img
-                className="comics-description-img"
-                src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`}
-              ></img>
-            </div>
-            <div className="comics-description-text">
-              <p className="black-bold">{comic.title}</p>
-              <h5>{comic.description}</h5>
-              <h5>{comic.pageCount} pages</h5>
-              <h5>language: en-us</h5>
-              <p className="red-price">{comic.prices[0].price}$</p>
+          <div className="comics-description-cont">
+            <div className="comics-description">
+              <div>
+                <img
+                  className="comics-description-img"
+                  src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`}
+                ></img>
+              </div>
+              <div className="comics-description-text">
+                <p className="black-bold">{comic.title}</p>
+                <h5>{comic.description}</h5>
+                <h5>{comic.pageCount} pages</h5>
+                <h5>language: en-us</h5>
+                <p className="red-price">{comic.prices[0].price}$</p>
+              </div>
             </div>
           </div>
         </>

@@ -26,16 +26,19 @@ export const CharacterDescription = () => {
       ) : (
         <>
           <Banner />
-          <div className="hero-description">
-            <div>
-              <img
-                className="hero-description-img"
-                src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
-              ></img>
-            </div>
-            <div className="hero-description-text">
-              <p className="name">{character.name}</p>
-              <h5>{character.description}</h5>
+          <div className="hero-description-cont">
+            {" "}
+            <div className="hero-description">
+              <div>
+                <img
+                  className="hero-description-img"
+                  src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
+                ></img>
+              </div>
+              <div className="hero-description-text">
+                <p className="name">{character.name}</p>
+                <h5>{character.description}</h5>
+              </div>
             </div>
           </div>
         </>

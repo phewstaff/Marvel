@@ -1,7 +1,7 @@
 .App {
-  width: 1100px;
-  padding-right: 170px;
-  padding-left: 170px;
+  width: 100%;
+  margin-right: 170px;
+  margin-left: 170px;
   margin: auto;
 }
 .name {
@@ -63,10 +63,8 @@ h5 {
 }
 .invisor {
   position: absolute;
-  margin-left: 100px;
+  margin: auto;
   margin-top: 500px;
-  width: 467px;
-  height: 372px;
 }
 p {
   padding: 0px;
@@ -75,6 +73,10 @@ p {
 h5 {
   padding: 0px;
   margin: 0px;
+}
+header {
+  width: 1100px;
+  margin: auto;
 }
 .header-p:hover {
   cursor: pointer;
@@ -121,6 +123,8 @@ h5 {
   background-color: black;
 }
 .random-character-cont {
+  width: 1100px;
+  margin: auto;
   margin-bottom: 44px;
   display: flex;
 }
@@ -194,6 +198,7 @@ h5 {
 }
 
 .selected-hero-cont {
+  margin: auto;
   width: 425px;
   height: 350px;
 }
@@ -213,6 +218,7 @@ main {
   justify-content: space-between;
 }
 .banner {
+  margin: auto;
   margin-bottom: 45px;
   display: flex;
   width: 1100px;
@@ -236,6 +242,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 425px;
   height: 294px;
   background: #ffffff;
@@ -313,6 +320,10 @@ main {
   height: 38px;
 }
 /* COMICS  */
+.comics-cont {
+  width: 1100px;
+  margin: auto;
+}
 .form-2 {
   width: 1100px;
   align-items: center;
@@ -340,6 +351,10 @@ main {
   transform: translate(0px, -10px);
   transition: all 0.4s;
 }
+.comics-description-cont {
+  width: 1100px;
+  margin: auto;
+}
 .comics-description {
   display: flex;
 }
@@ -366,6 +381,10 @@ main {
   color: #9f0013;
 }
 /* HERO DESCRIPTION  */
+.hero-description-cont {
+  width: 1100px;
+  margin: auto;
+}
 .hero-description-text {
   margin-left: 50px;
 }
@@ -395,4 +414,8 @@ main {
   100% {
     transform: rotate(360deg);
   }
+}
+.wrapper {
+  width: 1100px;
+  margin: auto;
 }

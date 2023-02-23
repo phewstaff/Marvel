@@ -32,33 +32,35 @@ export const Comics = () => {
   return (
     <>
       <Banner />
-      <div className="comics">
-        {comics
-          ? comics.slice(0, limit).map((item) => {
-              return (
-                <div
-                  key={item.id}
-                  onClick={() => navigate(`/${item.id}/comics`)}
-                  className="comics-cards"
-                >
-                  <div className="comics-card">
-                    <img
-                      className="comics-card-img"
-                      src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
-                    ></img>
-                    <p className="comics-bold-uppercase">{item.title}</p>
-                    <p className="price">{item.prices[0].price}$</p>
+      <div className="comics-cont">
+        <div className="comics">
+          {comics
+            ? comics.slice(0, limit).map((item) => {
+                return (
+                  <div
+                    key={item.id}
+                    onClick={() => navigate(`/${item.id}/comics`)}
+                    className="comics-cards"
+                  >
+                    <div className="comics-card">
+                      <img
+                        className="comics-card-img"
+                        src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
+                      ></img>
+                      <p className="comics-bold-uppercase">{item.title}</p>
+                      <p className="price">{item.prices[0].price}$</p>
+                    </div>
                   </div>
-                </div>
-              );
-            })
-          : ""}
-      </div>
-      <div className="form-2">
-        <Button
-          clickFunc={(e) => addMoreComics(e)}
-          title={"LOAD MORE"}
-        ></Button>
+                );
+              })
+            : ""}
+        </div>
+        <div className="form-2">
+          <Button
+            clickFunc={(e) => addMoreComics(e)}
+            title={"LOAD MORE"}
+          ></Button>
+        </div>
       </div>
     </>
   );
