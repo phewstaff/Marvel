@@ -1,6 +1,6 @@
 import "./App.css";
 import { Main } from "./pages/Main";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import { CharacterDescription } from "./pages/characterDescription";
 import { Comics } from "./pages/comics";
 import { ComicsDescription } from "./pages/comicsDescription";
@@ -32,6 +32,7 @@ function App() {
           <Route path="/:id" element={<CharacterDescription />} />
           <Route path="/:id/comics" element={<ComicsDescription />} />
           <Route path="comics" element={<Comics />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
 
         <footer className="App-main"></footer>

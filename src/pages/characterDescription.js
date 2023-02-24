@@ -27,7 +27,6 @@ export const CharacterDescription = () => {
         <>
           <Banner />
           <div className="hero-description-cont">
-            {" "}
             <div className="hero-description">
               <div>
                 <img
