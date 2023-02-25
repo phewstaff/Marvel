@@ -1,7 +1,5 @@
 # Marvel
 
-This project is a brief description of the project and its purpose.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
