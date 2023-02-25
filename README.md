@@ -1,69 +1,46 @@
-# Getting Started with Create React App
+# Marvel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a brief description of the project and its purpose.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The goal of this project is to learn how works the redux and how to fetch data and set it into redux storage, also i have got more practice using react-router. One of the main challenges i faced was to understand the whole implementation of redux store, the rest of code wasnt so difficult.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project has the following features:
 
-### `npm run build`
+- We can get random characther from marvel api each time when we click the button 
+- We can load more and more (comics/characthers)
+- We can click on each card and be navigated to its description page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is built using React, Redux, and Axios.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React**: A JavaScript library for building user interfaces. It is used for rendering the components and managing the application state.
+- **Redux**: A predictable state container for JavaScript apps. It is used for managing the application state in a central store.
+- **Axios**: A promise-based HTTP client for the browser and Node.js. It is used for making API calls to the Marvel API and fetching data.
 
-### `npm run eject`
+Other technologies used in the project include:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React Router DOM**: A library for routing in React applications. It is used for handling navigation between different views in the application.
+- **Redux Thunk**: A middleware for Redux that allows handling asynchronous actions. It is used for dispatching async actions in Redux.
+- **React Redux**: A library for connecting React components to the Redux store. It is used for accessing the store state and dispatching actions from React components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup
+To run this project, install it locally using npm:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+$ cd ../Marvel
+$ npm install
+$ npm start
+```
